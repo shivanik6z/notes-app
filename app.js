@@ -2,7 +2,7 @@ const yargs= require('yargs')
 const chalk = require('chalk');
 const notes = require('./notes.js');
 // const msg = getNotes();
-// console.log(msg);
+console.log(msg);
 yargs.version('1.1.0')
 //to add notes
 yargs.command({
@@ -44,6 +44,7 @@ yargs.command({
 })
 yargs.parse()
 //console.log(yargs.argv)//this command returns the handler function value
+console.log("hello")
 
 
 
